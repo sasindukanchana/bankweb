@@ -1650,6 +1650,10 @@ footer {
 
 /* Responsive Styles */
 @media (max-width: 1024px) {
+    .section {
+        padding: 80px 0;
+    }
+    
     .section-title {
         font-size: 2.2rem;
     }
@@ -1687,6 +1691,10 @@ footer {
 }
 
 @media (max-width: 768px) {
+    .section {
+        padding: 60px 0;
+    }
+
     .top-bar {
         display: none; /* Hide top bar on mobile */
     }
@@ -1748,6 +1756,10 @@ footer {
         padding-bottom: 0;
     }
     
+    .why-cards-layout {
+        grid-template-columns: 1fr;
+    }
+    
     .services-grid {
         grid-template-columns: 1fr;
     }
@@ -1756,6 +1768,11 @@ footer {
         flex-direction: column;
         gap: 20px;
         text-align: center;
+        padding: 24px;
+    }
+
+    .services-cta-text {
+        font-size: 1.1rem;
     }
     
     .testimonial-slide {
@@ -1784,5 +1801,128 @@ footer {
     .chat-window {
         width: calc(100vw - 40px);
         height: 450px;
+    }
+}
+
+@media (max-width: 576px) {
+    .container {
+        padding: 0 16px;
+    }
+
+    .section-title {
+        font-size: 1.8rem;
+    }
+
+    .section-desc {
+        font-size: 0.95rem;
+        margin-bottom: 30px;
+    }
+
+    .hero-slider {
+        height: 420px;
+    }
+
+    .slide-title {
+        font-size: 2.1rem;
+    }
+
+    .slide-sub {
+        font-size: 0.8rem;
+        letter-spacing: 2px;
+    }
+
+    .slide-buttons {
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+    }
+
+    .slide-buttons .btn {
+        width: 100%;
+    }
+
+    .slider-controls {
+        bottom: 20px;
+        right: 20px;
+    }
+
+    .control-btn {
+        width: 40px;
+        height: 40px;
+        font-size: 0.95rem;
+    }
+
+    .about-features {
+        grid-template-columns: 1fr;
+        gap: 16px;
+    }
+
+    .about-cta {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+    }
+
+    .about-phone {
+        width: 100%;
+    }
+
+    .why-card {
+        padding: 20px;
+    }
+
+    .calculator-body {
+        padding: 20px;
+    }
+
+    .calc-results {
+        padding: 20px;
+    }
+
+    .calc-result-val {
+        font-size: 1.8rem;
+    }
+
+    .contact-form-container {
+        padding: 24px 16px;
+    }
+
+    .modal-content {
+        border-radius: 16px;
+    }
+
+    .modal-header-section {
+        padding: 30px 20px 10px 20px;
+    }
+
+    .modal-header-section h3 {
+        font-size: 1.4rem;
+    }
+
+    .modal-body-section {
+        padding: 0 20px 30px 20px;
+    }
+
+    .branch-card {
+        padding: 16px;
+    }
+}
+
+@media (max-width: 380px) {
+    .logo-text {
+        font-size: 1.25rem;
+    }
+
+    .logo-wrapper img {
+        height: 38px;
+        width: 38px;
+    }
+
+    .hero-slider {
+        height: 380px;
+    }
+
+    .slide-title {
+        font-size: 1.8rem;
     }
 }
